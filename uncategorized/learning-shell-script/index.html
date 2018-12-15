@@ -106,24 +106,25 @@
 
 
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="Windows与Linux说道shell第一个应该想起的是Linux，一个给人看起来很神秘的操作系统。社会进步，世界发展应该感谢Windows而不是Liunx，如果没有了Windows，面对黑咕隆咚的电脑屏幕我想有不少人要望而却步（当然包括我），那么这个世界也就不会这么精彩。毕竟，所见即所得才是真理，或者说简单即正义。能用鼠标解决的为什么要用命令去做哪？所以大部分人应该感谢微软。让我一直想不明白的">
+<meta name="keywords" content="shell,coding">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/uncategorized/hello-world/index.html">
+<meta property="og:title" content="Shell脚本学习-从入门到放弃">
+<meta property="og:url" content="http://yoursite.com/uncategorized/learning-shell-script/index.html">
 <meta property="og:site_name" content="咸鱼笔记">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Windows与Linux说道shell第一个应该想起的是Linux，一个给人看起来很神秘的操作系统。社会进步，世界发展应该感谢Windows而不是Liunx，如果没有了Windows，面对黑咕隆咚的电脑屏幕我想有不少人要望而却步（当然包括我），那么这个世界也就不会这么精彩。毕竟，所见即所得才是真理，或者说简单即正义。能用鼠标解决的为什么要用命令去做哪？所以大部分人应该感谢微软。让我一直想不明白的">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-05T16:34:23.882Z">
+<meta property="og:updated_time" content="2018-12-15T03:46:44.414Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="Shell脚本学习-从入门到放弃">
+<meta name="twitter:description" content="Windows与Linux说道shell第一个应该想起的是Linux，一个给人看起来很神秘的操作系统。社会进步，世界发展应该感谢Windows而不是Liunx，如果没有了Windows，面对黑咕隆咚的电脑屏幕我想有不少人要望而却步（当然包括我），那么这个世界也就不会这么精彩。毕竟，所见即所得才是真理，或者说简单即正义。能用鼠标解决的为什么要用命令去做哪？所以大部分人应该感谢微软。让我一直想不明白的">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/uncategorized/hello-world/">
+  <link rel="canonical" href="http://yoursite.com/uncategorized/learning-shell-script/">
 
 
 
@@ -133,7 +134,7 @@
   };
 </script>
 
-  <title>Hello World | 咸鱼笔记</title>
+  <title>Shell脚本学习-从入门到放弃 | 咸鱼笔记</title>
   
 
 
@@ -321,7 +322,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/uncategorized/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/uncategorized/learning-shell-script/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Bunsx">
@@ -338,7 +339,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World
+          <h1 class="post-title" itemprop="name headline">Shell脚本学习-从入门到放弃
               
             
           </h1>
@@ -363,7 +364,7 @@
                 
               
 
-              <time title="创建时间：2018-12-06 00:34:23" itemprop="dateCreated datePublished" datetime="2018-12-06T00:34:23+08:00">2018-12-06</time>
+              <time title="创建时间：2018-12-15 10:35:21" itemprop="dateCreated datePublished" datetime="2018-12-15T10:35:21+08:00">2018-12-15</time>
             
 
             
@@ -397,15 +398,10 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h2 id="Windows与Linux"><a href="#Windows与Linux" class="headerlink" title="Windows与Linux"></a>Windows与Linux</h2><p>说道shell第一个应该想起的是Linux，一个给人看起来很神秘的操作系统。社会进步，世界发展应该感谢Windows而不是Liunx，如果没有了Windows，面对黑咕隆咚的电脑屏幕我想有不少人要望而却步（当然包括我），那么这个世界也就不会这么精彩。毕竟，所见即所得才是真理，或者说简单即正义。能用鼠标解决的为什么要用命令去做哪？所以大部分人应该感谢微软。让我一直想不明白的是，那些整天打着Linux旗号来鄙视WIndows的人一开始难道全部都是使用Linux么？还是因为厌恶Windows才转向了Linux？对于我来说，Linux和Windows我都不排斥，因为在我看来他们有各自的用途。起码，对于我来说，Windows是我入门。没有Windows我可能连电脑的基本操作都不会，怎么去谈接触Linux。当然，话也不能说的这么绝对，如果我最开始接触到的是Linux而不是Windows的话….那一切都要另当别论了。那么到底Windows和Linux孰优孰劣？我想这个问题并不好回答，这取决于你对这个两个操作系统的数量程度。</p>
+<h2 id="Shell与Linux"><a href="#Shell与Linux" class="headerlink" title="Shell与Linux"></a>Shell与Linux</h2><p>简单来说，shell是Linux给用户提供的一个用于和系统交互（或者说人机交互）的平台（用界面或许更为准确一点），用户想要让计算机帮忙完成成他们想要做的事情就需要在shell上输入相应的命令，shell通过Linux将命令翻译成指令，然后支配相应的硬件设备执行命令，最后将执行的结果反馈在shell界面上。这里的过程是根据我的理解对过程进行了简化，实际过程不一定是这样，甚至比这个更为复杂。不过，简单的理解应该是没有什么问的。<br>所以，学习shell语言的本质就是学习Linux命令，因为Linux命令就是把一堆Linux命令放在一起执行，当然执行的过程必然有逻辑顺序和先后关系。所以，不妨简单的认为shell脚本就是有<strong>逻辑性</strong>执行Linux命令。因此，学习shell脚本的编写最重要的学习Linux命令以及如何组织这些命令。</p>
+<h2 id="Shell概论"><a href="#Shell概论" class="headerlink" title="Shell概论"></a>Shell概论</h2><p>下面展示了一个简单的脚本语言，其功能是输出Hell World（这真是一个神奇的语句…）在shell界面中输入vim simple.sh<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># !/bin/bash</span></span><br><span class="line"><span class="comment"># Description: A simple scirpt print "hello world" in the screen.</span></span><br><span class="line"><span class="comment"># Author: Bunsx</span></span><br><span class="line"><span class="comment"># Version: v1.0 at 2018-12-15</span></span><br><span class="line"><span class="comment"># Reversion:</span></span><br><span class="line"><span class="comment">#	- v1.0 at 2018-12-15 first release</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###################################################################</span></span><br><span class="line"></span><br><span class="line"> <span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:~/bin</span><br><span class="line"> <span class="built_in">export</span> <span class="variable">$PATH</span></span><br><span class="line"> <span class="built_in">echo</span> <span class="string">"Hello World"</span></span><br></pre></td></tr></table></figure></p>
+<p>按Esc退出编辑状态，使用:wq保存。使用<code>sh simple.sh</code>，那么就会在shell上看到”Hello World”！结果有了，该来分析下这个脚本的具体内容，或者说这个脚本具体干了什么。首先，要知道<code>#</code>在shell是一个注释符号，简单说就是告诉shell忽略<code>#</code>后面的内容。但，第一行<code>#</code>后面的内容却不是这样，他告诉shell调用什么程序来执行。在Linux中并不像Windows中那么关心文件的后缀，或者说以后缀来区分该用的程序执行。所以，你要shell能够争取执行命令那么最好的办法就是在文件内部写明要调用的程序，而且这段生命一般放在第一行。<br>在第一行以后的<code>#</code>才是真正意义上的注释，这些注释并不是必要，但是为了让人看的懂，加上注释还是一个很好好的习惯！（显然这是一个很客套的说法，真正的意思是你必须写上这些注释，否则…你就等着挨打吧…）这些注释的内容简单说明了这个脚本的用途（description）、作者（author）、当前版本（version）以及修改历史（reversion）。<br>注释解释完了，下面该开始我们的重头戏了——正式的代码！<br>第一个命令，定义环境变量要搜寻的路径并使用<code>export</code>命令使<code>$PATH</code>变量生效。最后，使用<code>echo</code>命令输出”Hello World”，这样一个简单的shell脚本就完成了。</p>
 
       
     </div>
@@ -431,6 +427,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/shell/" rel="tag"># shell</a>
+          
+            <a href="/tags/coding/" rel="tag"># coding</a>
+          
+        </div>
+      
 
       
       
@@ -440,15 +444,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/uncategorized/know-what-and-why/" rel="next" title="知与不知">
+                <i class="fa fa-chevron-left"></i> 知与不知
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/uncategorized/new-blog-system/" rel="prev" title="从Typecho再回到Hexo">
-                从Typecho再回到Hexo <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -611,7 +615,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows与Linux"><span class="nav-number">1.</span> <span class="nav-text">Windows与Linux</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Shell与Linux"><span class="nav-number">2.</span> <span class="nav-text">Shell与Linux</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Shell概论"><span class="nav-number">3.</span> <span class="nav-text">Shell概论</span></a></li></ol></div>
             
 
           </div>
