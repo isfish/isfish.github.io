@@ -106,25 +106,25 @@
 
 
 
-  <meta name="description" content="Windows与Linux说到shell第一个应该想起的是Linux，一个给人看起来很神秘的操作系统。社会进步，世界发展应该感谢Windows而不是Liunx，如果没有了Windows，面对黑咕隆咚的电脑屏幕我想有不少人要望而却步（当然包括我），那么这个世界也就不会这么精彩。毕竟，所见即所得才是真理，或者说简单即正义。能用鼠标解决的为什么要用命令去做哪？所以大部分人应该感谢微软。让我一直想不明白的">
-<meta name="keywords" content="coding,shell">
+  <meta name="description" content="网络与网络服务今天信息流通如此便捷快速一定程度上得益于网络的发展，从网络诞生到被广泛使用不过短短几十年，一切都发生了翻天覆地的变化。得益于网络的发展，你能看我这篇文章。不过，不知道你是否想过一个问题——为什么你能看到这篇文章？这个问题显然是一个相对复杂的内容，不过可以简单的把这个过程分为：  你无意中打开了我的网站 你使用的浏览器发出请求 我网站的服务器做出响应   这个过程很简单，但实际上每个环">
+<meta name="keywords" content="coding,Nginx">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Shell脚本学习-从入门到放弃">
-<meta property="og:url" content="https://isfish.fun/default/learning-shell-script/index.html">
+<meta property="og:title" content="Nginx编译与安装——网络基础">
+<meta property="og:url" content="https://isfish.fun/default/complie-and-configure-nginx/index.html">
 <meta property="og:site_name" content="咸鱼笔记">
-<meta property="og:description" content="Windows与Linux说到shell第一个应该想起的是Linux，一个给人看起来很神秘的操作系统。社会进步，世界发展应该感谢Windows而不是Liunx，如果没有了Windows，面对黑咕隆咚的电脑屏幕我想有不少人要望而却步（当然包括我），那么这个世界也就不会这么精彩。毕竟，所见即所得才是真理，或者说简单即正义。能用鼠标解决的为什么要用命令去做哪？所以大部分人应该感谢微软。让我一直想不明白的">
+<meta property="og:description" content="网络与网络服务今天信息流通如此便捷快速一定程度上得益于网络的发展，从网络诞生到被广泛使用不过短短几十年，一切都发生了翻天覆地的变化。得益于网络的发展，你能看我这篇文章。不过，不知道你是否想过一个问题——为什么你能看到这篇文章？这个问题显然是一个相对复杂的内容，不过可以简单的把这个过程分为：  你无意中打开了我的网站 你使用的浏览器发出请求 我网站的服务器做出响应   这个过程很简单，但实际上每个环">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-15T03:48:07.598Z">
+<meta property="og:updated_time" content="2018-12-16T10:34:55.526Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Shell脚本学习-从入门到放弃">
-<meta name="twitter:description" content="Windows与Linux说到shell第一个应该想起的是Linux，一个给人看起来很神秘的操作系统。社会进步，世界发展应该感谢Windows而不是Liunx，如果没有了Windows，面对黑咕隆咚的电脑屏幕我想有不少人要望而却步（当然包括我），那么这个世界也就不会这么精彩。毕竟，所见即所得才是真理，或者说简单即正义。能用鼠标解决的为什么要用命令去做哪？所以大部分人应该感谢微软。让我一直想不明白的">
+<meta name="twitter:title" content="Nginx编译与安装——网络基础">
+<meta name="twitter:description" content="网络与网络服务今天信息流通如此便捷快速一定程度上得益于网络的发展，从网络诞生到被广泛使用不过短短几十年，一切都发生了翻天覆地的变化。得益于网络的发展，你能看我这篇文章。不过，不知道你是否想过一个问题——为什么你能看到这篇文章？这个问题显然是一个相对复杂的内容，不过可以简单的把这个过程分为：  你无意中打开了我的网站 你使用的浏览器发出请求 我网站的服务器做出响应   这个过程很简单，但实际上每个环">
 
 
 
 
 
 
-  <link rel="canonical" href="https://isfish.fun/learning-shell-script/">
+  <link rel="canonical" href="https://isfish.fun/complie-and-configure-nginx/">
 
 
 
@@ -134,7 +134,7 @@
   };
 </script>
 
-  <title>Shell脚本学习-从入门到放弃 | 咸鱼笔记</title>
+  <title>Nginx编译与安装——网络基础 | 咸鱼笔记</title>
   
 
 
@@ -322,7 +322,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://isfish.fun/default/learning-shell-script/">
+    <link itemprop="mainEntityOfPage" href="https://isfish.fun/default/complie-and-configure-nginx/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Bunsx">
@@ -339,7 +339,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Shell脚本学习-从入门到放弃
+          <h1 class="post-title" itemprop="name headline">Nginx编译与安装——网络基础
               
             
           </h1>
@@ -364,7 +364,7 @@
                 
               
 
-              <time title="Created: 2018-12-15 10:35:21" itemprop="dateCreated datePublished" datetime="2018-12-15T10:35:21+08:00">2018-12-15</time>
+              <time title="Created: 2018-12-15 22:23:27" itemprop="dateCreated datePublished" datetime="2018-12-15T22:23:27+08:00">2018-12-15</time>
             
 
             
@@ -398,10 +398,16 @@
       
 
       
-        <h2 id="Windows与Linux"><a href="#Windows与Linux" class="headerlink" title="Windows与Linux"></a>Windows与Linux</h2><p>说到shell第一个应该想起的是Linux，一个给人看起来很神秘的操作系统。社会进步，世界发展应该感谢Windows而不是Liunx，如果没有了Windows，面对黑咕隆咚的电脑屏幕我想有不少人要望而却步（当然包括我），那么这个世界也就不会这么精彩。毕竟，所见即所得才是真理，或者说简单即正义。能用鼠标解决的为什么要用命令去做哪？所以大部分人应该感谢微软。让我一直想不明白的是，那些整天打着Linux旗号来鄙视WIndows的人一开始难道全部都是使用Linux么？还是因为厌恶Windows才转向了Linux？对于我来说，Linux和Windows我都不排斥，因为在我看来他们有各自的用途。起码，对于我来说，Windows是我入门。没有Windows我可能连电脑的基本操作都不会，怎么去谈接触Linux。当然，话也不能说的这么绝对，如果我最开始接触到的是Linux而不是Windows的话….那一切都要另当别论了。那么到底Windows和Linux孰优孰劣？我想这个问题并不好回答，这取决于你对这个两个操作系统的数量程度。</p>
-<h2 id="Shell与Linux"><a href="#Shell与Linux" class="headerlink" title="Shell与Linux"></a>Shell与Linux</h2><p>简单来说，shell是Linux给用户提供的一个用于和系统交互（或者说人机交互）的平台（用界面或许更为准确一点），用户想要让计算机帮忙完成成他们想要做的事情就需要在shell上输入相应的命令，shell通过Linux将命令翻译成指令，然后支配相应的硬件设备执行命令，最后将执行的结果反馈在shell界面上。这里的过程是根据我的理解对过程进行了简化，实际过程不一定是这样，甚至比这个更为复杂。不过，简单的理解应该是没有什么问的。<br>所以，学习shell语言的本质就是学习Linux命令，因为Linux命令就是把一堆Linux命令放在一起执行，当然执行的过程必然有逻辑顺序和先后关系。所以，不妨简单的认为shell脚本就是有<strong>逻辑性</strong>执行Linux命令。因此，学习shell脚本的编写最重要的学习Linux命令以及如何组织这些命令。</p>
-<h2 id="Shell概论"><a href="#Shell概论" class="headerlink" title="Shell概论"></a>Shell概论</h2><p>下面展示了一个简单的脚本语言，其功能是输出Hell World（这真是一个神奇的语句…）在shell界面中输入vim simple.sh<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># !/bin/bash</span></span><br><span class="line"><span class="comment"># Description: A simple scirpt print "hello world" in the screen.</span></span><br><span class="line"><span class="comment"># Author: Bunsx</span></span><br><span class="line"><span class="comment"># Version: v1.0 at 2018-12-15</span></span><br><span class="line"><span class="comment"># Reversion:</span></span><br><span class="line"><span class="comment">#	- v1.0 at 2018-12-15 first release</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###################################################################</span></span><br><span class="line"></span><br><span class="line"> <span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:~/bin</span><br><span class="line"> <span class="built_in">echo</span> <span class="string">"Hello World"</span></span><br></pre></td></tr></table></figure></p>
-<p>按Esc退出编辑状态，使用:wq保存。使用<code>sh simple.sh</code>，那么就会在shell上看到”Hello World”！结果有了，该来分析下这个脚本的具体内容，或者说这个脚本具体干了什么。首先，要知道<code>#</code>在shell是一个注释符号，简单说就是告诉shell忽略<code>#</code>后面的内容。但，第一行<code>#</code>后面的内容却不是这样，他告诉shell调用什么程序来执行。在Linux中并不像Windows中那么关心文件的后缀，或者说以后缀来区分该用的程序执行。所以，你要shell能够争取执行命令那么最好的办法就是在文件内部写明要调用的程序，而且这段生命一般放在第一行。<br>在第一行以后的<code>#</code>才是真正意义上的注释，这些注释并不是必要，但是为了让人看的懂，加上注释还是一个很好好的习惯！（显然这是一个很客套的说法，真正的意思是你必须写上这些注释，否则…你就等着挨打吧…）这些注释的内容简单说明了这个脚本的用途（description）、作者（author）、当前版本（version）以及修改历史（reversion）。<br>注释解释完了，下面该开始我们的重头戏了——正式的代码！<br>第一个命令，定义环境变量要搜寻的路径并使用<code>export</code>命令使<code>$PATH</code>变量生效。最后，使用<code>echo</code>命令输出”Hello World”，这样一个简单的shell脚本就完成了。</p>
+        <h1 id="网络与网络服务"><a href="#网络与网络服务" class="headerlink" title="网络与网络服务"></a>网络与网络服务</h1><p>今天信息流通如此便捷快速一定程度上得益于网络的发展，从网络诞生到被广泛使用不过短短几十年，一切都发生了翻天覆地的变化。得益于网络的发展，你能看我这篇文章。不过，不知道你是否想过一个问题——为什么你能看到这篇文章？这个问题显然是一个相对复杂的内容，不过可以简单的把这个过程分为：</p>
+<ul>
+<li>你无意中打开了我的网站</li>
+<li>你使用的浏览器发出请求</li>
+<li>我网站的服务器做出响应</li>
+</ul>
+<blockquote>
+<p>这个过程很简单，但实际上每个环节都具备很多的小细节。比如说，你是怎么知道我的网站的？是你的朋友告诉你的还是搜索引擎告诉你？你是怎么来到我的网站的，是通过直接输入域名或者是ip进行访问的，还是通过在搜索引擎中输入站点的相关信息查到的？<br>上面解释了为什么说我列出的三个简单过程包含了很多内容，当然更科学的说法实际的内容包括但不仅限于我所列出的内容，简单说就是可能事情情况更加复杂。不过我们可以试着回一下上述的内容。</p>
+</blockquote>
+<h2 id="你是如何找到我的网站的？"><a href="#你是如何找到我的网站的？" class="headerlink" title="你是如何找到我的网站的？"></a>你是如何找到我的网站的？</h2><p>如果说你是通过在搜索引擎中输入某些信息<strong>无意</strong>中来到这个网站的但实际上你可能并不想来我的网站，那么说明一个问题——我网站的某些内容已经被收录了。这是对我工作的肯定啊，毕竟这是很多站长的梦想，这意味着你的站点不再是给自己看而已。有不少人在这方面下了很大的功夫，常常人们把这种行为称为<strong>SEO</strong>,除了你网站不再是孤零零的记事本之外，更重要的是可能给你带来前途甚至是钱途。<br>但如果说你是直接输入ip或者是域名，那么这个问题就不好说了，有可能你是这个网站的老顾客了（不过这些人更多的是通过书签的方式…）或者是你的记忆能力超群。<br>不管是那种方式，你基本上都是通过访问域名的方式来进入这个站点的（前提是这个网站听那个的是域名访问）比如你输入<code>www.baidu.com</code>那么在<strong>顺利的情况下</strong>你将访问的百度的首页。<br>为什么说是顺利的情况下才能访问到百度的首页？这就和网络的有关了。首先在你电脑或者是其他的设备在联网的状态下，你在浏览器中输入<code>www.baidu.com</code>时，浏览器要对域名进行解析得到域名背后的ip，这才是网站内容存放的地方。这好比一个同名的人一样，尽管你们的名字是一样的但身份证号码却不一样。（当然这个比喻不是很恰当）。那么，域名和ip是如何进行对应的哪？这就要谈到DNS了，DNS全称——Domain Name Service，也就是域名解析服务。每个域名的背后对应的是ip,将域名解析成ip的过程就是DNS要完成的。</p>
 
       
     </div>
@@ -431,7 +437,7 @@
           
             <a href="/tags/coding/" rel="tag"># coding</a>
           
-            <a href="/tags/shell/" rel="tag"># shell</a>
+            <a href="/tags/Nginx/" rel="tag"># Nginx</a>
           
         </div>
       
@@ -444,8 +450,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/default/know-what-and-why/" rel="next" title="知与不知">
-                <i class="fa fa-chevron-left"></i> 知与不知
+              <a href="/default/learning-shell-script/" rel="next" title="Shell脚本学习-从入门到放弃">
+                <i class="fa fa-chevron-left"></i> Shell脚本学习-从入门到放弃
               </a>
             
           </div>
@@ -453,10 +459,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/default/complie-and-configure-nginx/" rel="prev" title="Nginx编译与安装——网络基础">
-                Nginx编译与安装——网络基础 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -621,7 +623,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Windows与Linux"><span class="nav-number">1.</span> <span class="nav-text">Windows与Linux</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Shell与Linux"><span class="nav-number">2.</span> <span class="nav-text">Shell与Linux</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Shell概论"><span class="nav-number">3.</span> <span class="nav-text">Shell概论</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#网络与网络服务"><span class="nav-number">1.</span> <span class="nav-text">网络与网络服务</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#你是如何找到我的网站的？"><span class="nav-number">1.1.</span> <span class="nav-text">你是如何找到我的网站的？</span></a></li></ol></li></ol></div>
             
 
           </div>
